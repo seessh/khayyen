@@ -91,26 +91,7 @@
 
     <!-- Define app icon      -->
     <icon src="images/splash/icon.png" />
-    <icon src="images/splash/ios.png" platform="ios" />
 
-	<icon gap:platform="ios" height="60" width="60" src="images/splash/ios/icon-60.png" />
-	<icon gap:platform="ios" height="120" width="120" src="images/splash/ios/icon-60@2x.png" />
-	<icon gap:platform="ios" height="180" width="180" src="images/splash/ios/icon-60@3x.png" />
-	<icon gap:platform="ios" height="76" width="76" src="images/splash/ios/icon-76.png" />
-	<icon gap:platform="ios" height="152" width="152" src="images/splash/ios/icon-76@2x.png" />
-	<icon gap:platform="ios" height="40" width="40" src="images/splash/ios/icon-40.png" />
-	<icon gap:platform="ios" height="80" width="80" src="images/splash/ios/icon-40@2x.png" />
-	<icon gap:platform="ios" height="57" width="57" src="images/splash/ios/icon-57.png" />
-	<icon gap:platform="ios" height="114" width="114" src="images/splash/ios/icon-57@2x.png" />
-	<icon gap:platform="ios" height="72" width="72" src="images/splash/ios/icon-72.png" />
-	<icon gap:platform="ios" height="144" width="144" src="images/splash/ios/icon-72@2x.png" />
-	<icon gap:platform="ios" height="29" width="29" src="images/splash/ios/icon-small.png" />
-	<icon gap:platform="ios" height="58" width="58" src="images/splash/ios/icon-small@2x.png" />
-	<icon gap:platform="ios" height="50" width="50" src="images/splash/ios/icon-50.png" />
-	<icon gap:platform="ios" height="100" width="100" src="images/splash/ios/icon-50@2x.png" />
-	
-	<icon gap:platform="ios" height="87" width="87" src="images/splash/ios/icon-29@3x.png" />
-	<icon gap:platform="ios" height="167" width="167" src="images/splash/ios/icon-167.png" />
 
 	<icon gap:platform="android" gap:qualifier="ldpi" src="images/splash/android/icon-36-ldpi.png" />
 	<icon gap:platform="android" gap:qualifier="mdpi" src="images/splash/android/icon-48-mdpi.png" />
@@ -129,27 +110,14 @@
 	<gap:splash src="img/splash/splash_bkg_landscape.png" gap:platform="ios" width="2048" height="1536" />
 	-->
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="images/splash/screen-ldpi-landscape.png"		gap:platform="android" gap:qualifier="port-ldpi" />
-    <gap:splash src="images/splash/screen-mdpi-landscape.png"		gap:platform="android" gap:qualifier="port-mdpi" />
-    <gap:splash src="images/splash/screen-hdpi-landscape.png"		gap:platform="android" gap:qualifier="port-hdpi" />
-    <gap:splash src="images/splash/screen-xhdpi-landscape.png"		gap:platform="android" gap:qualifier="port-xhdpi" />
-    <gap:splash src="images/splash/screen-xxhdpi-landscape.png"		gap:platform="android" gap:qualifier="port-xxhdpi" />
-	
-    <gap:splash src="images/splash/por/screen-ldpi-landscape.png"		gap:platform="android" gap:qualifier="land-ldpi" />
-    <gap:splash src="images/splash/por/screen-mdpi-landscape.png"		gap:platform="android" gap:qualifier="land-mdpi" />
-    <gap:splash src="images/splash/por/screen-hdpi-landscape.png"		gap:platform="android" gap:qualifier="land-hdpi" />
-    <gap:splash src="images/splash/por/screen-xhdpi-landscape.png"		gap:platform="android" gap:qualifier="land-xhdpi" />
-    <gap:splash src="images/splash/por/screen-xxhdpi-landscape.png"		gap:platform="android" gap:qualifier="land-xxhdpi" />
 
-	
-    <gap:splash src="images/splash/screen-iphone-landscape.png"			gap:platform="ios"		width="320"		height="480" />
-    <gap:splash src="images/splash/screen-iphone-landscape-2x.png"		gap:platform="ios"		width="640"		height="960" />
-    <gap:splash src="images/splash/screen-iphone-landscape-568h-2x.png"	gap:platform="ios"		width="640"		height="1136" />
-    <gap:splash src="images/splash/screen-ipad-landscape.png"			gap:platform="ios"		width="768"		height="1024" />
-    <gap:splash src="images/splash/screen-ipad-landscape-2x.png"		gap:platform="ios"		width="1536"	height="2048" />
-	
-    <gap:splash src="images/splash/screen-800-736h@3x.png"			gap:platform="ios"		width="1242"	height="2208" />
-    <gap:splash src="images/splash/screen-800-667h@2x.png"			gap:platform="ios"		width="750"	height="1334" />
+    <gap:splash src="images/splash/screen-ldpi-landscape.png"		gap:platform="android" gap:qualifier="land-ldpi" />
+    <gap:splash src="images/splash/screen-mdpi-landscape.png"		gap:platform="android" gap:qualifier="land-mdpi" />
+    <gap:splash src="images/splash/screen-hdpi-landscape.png"		gap:platform="android" gap:qualifier="land-hdpi" />
+    <gap:splash src="images/splash/screen-xhdpi-landscape.png"		gap:platform="android" gap:qualifier="land-xhdpi" />
+    <gap:splash src="images/splash/screen-xxhdpi-landscape.png"		gap:platform="android" gap:qualifier="land-xxhdpi" />
+
+
 
 
 
